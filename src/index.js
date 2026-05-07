@@ -1,5 +1,5 @@
-import { searchShow, getShowData, getEpisodeList } from "./services/tvmaze.js";
-import { createHeaderHTML, createSeasonHTML } from "./components/shows.js";
+import { searchShow, getShowData, getEpisodeList } from "../services/tvmaze.js";
+import { createHeaderHTML, createSeasonHTML } from "../components/shows.js";
 
 const $form = document.querySelector(".search-form");
 const $input = document.querySelector(".search-input");
